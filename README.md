@@ -1,4 +1,4 @@
-#Network Monitor Station
+.#Network Monitor Station
 
 ## Overview
 ESP-32 based network monitor with LCD display
@@ -28,3 +28,10 @@ LED alerts, Grafana dashboard on Raspberry Pi5
 - Samsung 980 Pro not detected 
 - Samsung 970 Evo not detected
 - contacted Waveshare to get guidance 
+
+## Technologies
+- C++ / Arduino IDE
+- Raspberry Pi OS
+- Grafana + influxDB
+- MQTT / HTTP
+- Python 
