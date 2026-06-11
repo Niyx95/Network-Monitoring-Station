@@ -28,7 +28,7 @@ LED alerts, Grafana dashboard on Raspberry Pi5
 - Tested both LED
 - tested first logs with lcd screen
 
-###Phase4 - Pi Setup
+### Phase4 - Pi Setup
 - debugging M2 (not showing up)
 - set static ipv4
 - installed Grafana and InfluxDB
