@@ -1,4 +1,8 @@
-.#Network Monitor Station
+#Network Monitor Station
+
+
+![System Running](assets/system-running.jpg)
+*ESP32 network monitoring project, alert lights, host on lcd
 
 ## Overview
 ESP-32 based network monitor with LCD display
@@ -21,7 +25,10 @@ networking, and Linux infrastructure.
 - Python
 
 ## Progress Log
+
 ### Phase1 - Connect ESP32 to Wifi
+![ESP32 wiring](assets/ESP32test.jpg )
+*ESP32 first blink test
 - Installed Arduino IDE on my fedora machine
 - Fixed permissions 
 - Initial Try to blink a light with LED lights
@@ -33,6 +40,8 @@ networking, and Linux infrastructure.
 - LCD shows Wifi status and IP address
 
 ### Phase3 - Network Pinging and LED alerts
+![ESP32 wiring](assets/BreadboardComplete.jpg)
+*Complete ESP32, lcd running
 - Wired 2 LED (Green on GPIO17, Red on 16)
 - Tested both LED
 - tested first logs with lcd screen
@@ -44,9 +53,13 @@ networking, and Linux infrastructure.
 - Configured MQTT Broker
 - All services enabled
 
-### Phase5 - MQTT - ESP32 - Python
+### Phase5 - py code and last settings
+![grafana dashboard](assets/GarafanaDashboard.jpg)
+*grafana dashboard refreshing every 10 seconds
 - ESP32 publishes ping to the MQTT
 - mosquitto broker recives message on Pi
+- Grafana dashboard to visualize the network
+- python script 
 
 ## Issues & Solutions
 | Issue | Solution |
